@@ -29,6 +29,6 @@ try:
     client.admin.command("ping")
 except (ConnectionFailure, ServerSelectionTimeoutError) as e:
     print("Error de conexión a MongoDB:", e)
-finally:
-    #cerrar la conexion al cliente de MongoDB
-    client.close()
+# finally:
+#     #cerrar la conexion al cliente de MongoDB
+#     client.close()
